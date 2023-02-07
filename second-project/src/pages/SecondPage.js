@@ -1,6 +1,8 @@
 function SecondPage() {
     return (
-        <div>SecondPage</div>
+        <div>
+            <h1>SecondPage</h1>
+        </div>
     )
 }
 
