@@ -8,13 +8,13 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Main</Link>
+            <Link to="/">All Meetups</Link>
           </li>
           <li>
-            <Link to="/second">SecondPage</Link>
+            <Link to="/second">Add Meetup</Link>
           </li>
           <li>
-            <Link to="/third">ThirdPage</Link>
+            <Link to="/third">My Favorites</Link>
           </li>
         </ul>
       </nav>

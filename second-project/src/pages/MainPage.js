@@ -16,13 +16,13 @@ const DUMMY_DATA = [
   },
 ];
 
-function MainPage() {
+function AllMeetups() {
   return (
     <div>
-      <h1>MainPage</h1>
+      <h1>All Meetups</h1>
       <MeetupList meetups={DUMMY_DATA} />
     </div>
   );
 }
 
-export default MainPage;
+export default AllMeetups;

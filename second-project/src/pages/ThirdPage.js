@@ -1,7 +1,7 @@
-function ThirdPage() {
+function MyFavorites() {
     return (
-        <div><h1>ThirdPage</h1></div>
+        <div><h1>My Favorites</h1></div>
     )
 }
 
-export default ThirdPage;
+export default MyFavorites;

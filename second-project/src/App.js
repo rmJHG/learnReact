@@ -1,16 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import MainPage from "./pages/MainPage";
-import SecondPage from "./pages/SecondPage";
-import ThirdPage from "./pages/ThirdPage";
+import AllMeetups from "./pages/MainPage";
+import AddMeetup from "./pages/SecondPage";
+import MyFavorites from "./pages/ThirdPage";
 import Layout from "./components/layout/Layout";
 
 function App() {
   return (
     <Layout>
    <Routes>
-   <Route path="/" element={<MainPage/>} />
-   <Route path="/second" element={<SecondPage/>} />
-   <Route path="/third" element={<ThirdPage/>} />
+   <Route path="/" element={<AllMeetups/>} />
+   <Route path="/second" element={<AddMeetup/>} />
+   <Route path="/third" element={<MyFavorites/>} />
    </Routes>
     </Layout>
   );
